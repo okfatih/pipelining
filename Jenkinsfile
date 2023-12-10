@@ -1,11 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('run') {
             steps {
-                echo "Welcome to Jenkins Enviroment"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                echo 'spineless David'
+                sh 'python3 --version'
+                sh 'python3 pipeline.py'
             }
         }
     }
