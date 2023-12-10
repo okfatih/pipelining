@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'spineless David'
                 sh 'python3 --version'
-                sh 'python3 pipeline.py'
+                sh 'python3 hello-world.py'
             }
         }
     }
