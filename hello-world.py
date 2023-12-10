@@ -1,2 +1,1 @@
-for _ in range(4):
-    print("Viva de Resistance!")
+print("Viva de resistance")
